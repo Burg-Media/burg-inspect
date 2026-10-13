@@ -1,0 +1,377 @@
+{
+  "lang": {
+    "message": "en"
+  },
+  "extName": {
+    "message": "Burg Inspect"
+  },
+  "extDescription": {
+    "message": "See the fonts, sizes, spacing and CSS of any element by hovering over it. Ruler, grid and style inventory. All local."
+  },
+  "cmdInspect": {
+    "message": "Toggle inspect mode"
+  },
+  "errBlocked": {
+    "message": "Burg Inspect can't run on this page (for example chrome:// pages or the Web Store)."
+  },
+  "popupSubtitle": {
+    "message": "Fonts · sizes · spacing"
+  },
+  "actionInspect": {
+    "message": "Inspect"
+  },
+  "actionRuler": {
+    "message": "Ruler"
+  },
+  "actionRulerSub": {
+    "message": "Measure with snapping"
+  },
+  "actionGrid": {
+    "message": "Grid"
+  },
+  "actionGridSub": {
+    "message": "Columns & baseline"
+  },
+  "actionFonts": {
+    "message": "Fonts"
+  },
+  "actionFontsSub": {
+    "message": "On this page"
+  },
+  "actionInventory": {
+    "message": "Style inventory"
+  },
+  "actionInventorySub": {
+    "message": "Report"
+  },
+  "fontsHint": {
+    "message": "Click a font to highlight it on the page."
+  },
+  "gridSettings": {
+    "message": "Grid settings"
+  },
+  "gColumns": {
+    "message": "Columns"
+  },
+  "gGutter": {
+    "message": "Gutter"
+  },
+  "gMaxWidth": {
+    "message": "Max. width"
+  },
+  "gMaxWidthTitle": {
+    "message": "0 = full width"
+  },
+  "gMargin": {
+    "message": "Margin"
+  },
+  "gMarginTitle": {
+    "message": "Space on the left and right"
+  },
+  "gBaseline": {
+    "message": "Baseline"
+  },
+  "gColumnsOn": {
+    "message": "Show columns"
+  },
+  "gBaselineOn": {
+    "message": "Show baseline"
+  },
+  "presetMobile": {
+    "message": "Mobile 4"
+  },
+  "onPage": {
+    "message": "On the page:"
+  },
+  "shortcuts": {
+    "message": "Shortcuts"
+  },
+  "madeBy": {
+    "message": "Made by"
+  },
+  "noShortcut": {
+    "message": "No shortcut"
+  },
+  "errCant": {
+    "message": "This page can't be inspected (for example chrome:// pages or the Web Store)."
+  },
+  "fontsMeta1": {
+    "message": "{0} font · {1} text elements"
+  },
+  "fontsMetaN": {
+    "message": "{0} fonts · {1} text elements"
+  },
+  "noText": {
+    "message": "No text found on this page."
+  },
+  "fontLoading": {
+    "message": "{0} · loading"
+  },
+  "highlighted1": {
+    "message": "{0} element highlighted"
+  },
+  "highlightedN": {
+    "message": "{0} elements highlighted"
+  },
+  "nothingVisible": {
+    "message": "Nothing visible to highlight"
+  },
+  "pageChanged": {
+    "message": "The page has changed; analyze it again"
+  },
+  "missingFont": {
+    "message": "{0} doesn't load → falls back to {1}"
+  },
+  "fontFiles1": {
+    "message": "{0} font file · {1}"
+  },
+  "fontFilesN": {
+    "message": "{0} font files · {1}"
+  },
+  "gridUpdated": {
+    "message": "Grid updated"
+  },
+  "srcLocalFace": {
+    "message": "Local (@font-face)"
+  },
+  "srcOwnFace": {
+    "message": "Own @font-face"
+  },
+  "srcEmbedded": {
+    "message": "Embedded (data URI)"
+  },
+  "srcSystem": {
+    "message": "System font"
+  },
+  "srcInstalled": {
+    "message": "Installed locally"
+  },
+  "srcAdobeLikely": {
+    "message": "Adobe Fonts (probably)"
+  },
+  "srcUnknown": {
+    "message": "Web font (source not readable)"
+  },
+  "srcOwnServer": {
+    "message": "Own server"
+  },
+  "defaultFont": {
+    "message": "default font"
+  },
+  "barColumnsTitle": {
+    "message": "Column grid (G)"
+  },
+  "barBaselineTitle": {
+    "message": "Baseline grid (B)"
+  },
+  "barInspectTitle": {
+    "message": "Inspect (I)"
+  },
+  "barRulerTitle": {
+    "message": "Ruler (R)"
+  },
+  "barMoveTitle": {
+    "message": "Toolbar top/bottom"
+  },
+  "barStopTitle": {
+    "message": "Stop (Esc)"
+  },
+  "tipInspect": {
+    "message": "Click: pin · then hover another element: spacing · ↑↓←→ parent/child/siblings · C: CSS · Esc"
+  },
+  "tipRuler": {
+    "message": "Drag to measure · snaps to edges (Alt: free) · Esc: clear"
+  },
+  "tipIdle": {
+    "message": "The page works normally · I: inspect · R: ruler · Esc: stop"
+  },
+  "copied": {
+    "message": "{0} copied"
+  },
+  "copyFailed": {
+    "message": "Copy failed"
+  },
+  "transparent": {
+    "message": "transparent"
+  },
+  "kindWeb": {
+    "message": "web font"
+  },
+  "kindLocal": {
+    "message": "local"
+  },
+  "kindSystem": {
+    "message": "system"
+  },
+  "loading": {
+    "message": "loading…"
+  },
+  "secText": {
+    "message": "Text"
+  },
+  "rowUnavailable": {
+    "message": "Not available"
+  },
+  "rowStack": {
+    "message": "Stack"
+  },
+  "rowSize": {
+    "message": "Size"
+  },
+  "rowWeight": {
+    "message": "Weight"
+  },
+  "rowLetterSpacing": {
+    "message": "Letter spacing"
+  },
+  "rowColor": {
+    "message": "Color"
+  },
+  "rowBackground": {
+    "message": "Background"
+  },
+  "parentSuffix": {
+    "message": "(parent)"
+  },
+  "contrastFail": {
+    "message": "fail"
+  },
+  "rowBorder": {
+    "message": "Border"
+  },
+  "rowShadow": {
+    "message": "Shadow"
+  },
+  "gridColumns": {
+    "message": "{0} columns"
+  },
+  "btnCopyCss": {
+    "message": "Copy CSS"
+  },
+  "btnParent": {
+    "message": "↑ Parent"
+  },
+  "cardHint": {
+    "message": "Hover another element to see the spacing. Drag the header to move the card."
+  },
+  "reportDocTitle": {
+    "message": "Style inventory · Burg Inspect"
+  },
+  "reportTitle": {
+    "message": "Style inventory · {0} · Burg Inspect"
+  },
+  "analyzeAgain": {
+    "message": "Analyze again"
+  },
+  "copyJson": {
+    "message": "Copy JSON"
+  },
+  "copyTokens": {
+    "message": "Copy as CSS variables"
+  },
+  "emptyBefore": {
+    "message": "No inventory found. Open the Burg Inspect popup on a page and choose"
+  },
+  "emptyAfter": {
+    "message": "."
+  },
+  "secTextStyles": {
+    "message": "Text styles"
+  },
+  "textHint": {
+    "message": "Largest to smallest. Click a row to highlight the elements on the page. The sample only uses the font if it is also installed on this computer."
+  },
+  "thSample": {
+    "message": "Sample"
+  },
+  "thSizeLine": {
+    "message": "Size / line"
+  },
+  "thCount": {
+    "message": "Count"
+  },
+  "secSizes": {
+    "message": "Font sizes"
+  },
+  "secColors": {
+    "message": "Text colors"
+  },
+  "secBgs": {
+    "message": "Backgrounds"
+  },
+  "secSpacing": {
+    "message": "Spacing"
+  },
+  "secShadows": {
+    "message": "Shadows"
+  },
+  "footerLocal": {
+    "message": "everything calculated locally"
+  },
+  "highlightedTab1": {
+    "message": "{0} element highlighted in the tab"
+  },
+  "highlightedTabN": {
+    "message": "{0} elements highlighted in the tab"
+  },
+  "unreachable": {
+    "message": "Can't reach the page anymore; open the popup again on that page"
+  },
+  "swatchTitle": {
+    "message": "Click: copy and highlight"
+  },
+  "statText": {
+    "message": "text styles"
+  },
+  "statSizes": {
+    "message": "font sizes"
+  },
+  "statColors": {
+    "message": "text colors"
+  },
+  "statBgs": {
+    "message": "backgrounds"
+  },
+  "statSpacing": {
+    "message": "spacing values"
+  },
+  "statRadii": {
+    "message": "radii"
+  },
+  "statShadows": {
+    "message": "shadows"
+  },
+  "note": {
+    "message": "{0} visible elements checked · {1}. A yellow bar means many variants, possibly worth consolidating."
+  },
+  "countOf": {
+    "message": "{0} of {1}"
+  },
+  "gridFit": {
+    "message": "{0} of {1} values fit a 4px grid; the rest have a dotted border. m = margin, p = padding, g = gap."
+  },
+  "noSpacing": {
+    "message": "No spacing found."
+  },
+  "noRadii": {
+    "message": "No rounded corners."
+  },
+  "noShadows": {
+    "message": "No shadows."
+  },
+  "tokensHeader": {
+    "message": "Style inventory of {0} — Burg Inspect"
+  },
+  "tokSizes": {
+    "message": "Font sizes (small → large)"
+  },
+  "tokColors": {
+    "message": "Text colors (most used first)"
+  },
+  "cssVariables": {
+    "message": "CSS variables"
+  },
+  "reanalyzed": {
+    "message": "Analyzed again"
+  }
+}

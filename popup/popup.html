@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Burg Inspect</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <img src="../images/icon_32.png" alt="" width="24" height="24" />
+      <div class="pt"><strong>Burg Inspect</strong><span class="host" id="host" data-i18n="popupSubtitle"></span></div>
+    </header>
+
+    <div class="actions">
+      <button class="action primary" id="inspect">
+        <span class="title" data-i18n="actionInspect"></span>
+        <span class="sub" id="shortcut">Alt+Shift+I</span>
+      </button>
+      <button class="action" id="ruler">
+        <span class="title" data-i18n="actionRuler"></span>
+        <span class="sub" data-i18n="actionRulerSub"></span>
+      </button>
+      <button class="action" id="grid">
+        <span class="title" data-i18n="actionGrid"></span>
+        <span class="sub" data-i18n="actionGridSub"></span>
+      </button>
+      <button class="action" id="fonts">
+        <span class="title" data-i18n="actionFonts"></span>
+        <span class="sub" data-i18n="actionFontsSub"></span>
+      </button>
+      <button class="action" id="inventory">
+        <span class="title" data-i18n="actionInventory"></span>
+        <span class="sub" data-i18n="actionInventorySub"></span>
+      </button>
+    </div>
+
+    <p id="error" class="error" hidden></p>
+
+    <section id="fonts-section" hidden>
+      <h2><span data-i18n="actionFonts"></span> <span id="fonts-meta" class="muted"></span></h2>
+      <p class="muted small" data-i18n="fontsHint"></p>
+      <div id="fonts-list" class="fonts"></div>
+      <div id="missing" class="missing" hidden></div>
+      <details id="files-wrap" class="files" hidden>
+        <summary><span id="files-sum"></span></summary>
+        <div id="files"></div>
+      </details>
+    </section>
+
+    <section>
+      <details id="grid-settings" class="settings">
+        <summary><h2 data-i18n="gridSettings"></h2></summary>
+        <div class="fields">
+          <label><span data-i18n="gColumns"></span> <input type="number" id="g-columns" min="1" max="48" step="1" /></label>
+          <label><span data-i18n="gGutter"></span> <input type="number" id="g-gutter" min="0" max="200" step="1" /></label>
+          <label><span data-i18n="gMaxWidth"></span> <input type="number" id="g-maxWidth" min="0" max="4000" step="10" data-i18n-title="gMaxWidthTitle" /></label>
+          <label><span data-i18n="gMargin"></span> <input type="number" id="g-margin" min="0" max="400" step="1" data-i18n-title="gMarginTitle" /></label>
+          <label><span data-i18n="gBaseline"></span> <input type="number" id="g-baseline" min="2" max="64" step="1" /></label>
+        </div>
+        <div class="checks">
+          <label class="check"><input type="checkbox" id="g-columnsOn" /> <span data-i18n="gColumnsOn"></span></label>
+          <label class="check"><input type="checkbox" id="g-baselineOn" /> <span data-i18n="gBaselineOn"></span></label>
+        </div>
+        <div class="presets">
+          <button data-preset="12,24,1280,16">12 · 24 · 1280</button>
+          <button data-preset="12,30,1140,15">Bootstrap</button>
+          <button data-preset="4,16,0,16" data-i18n="presetMobile"></button>
+          <button data-preset="8,24,0,24">Tablet 8</button>
+        </div>
+      </details>
+    </section>
+
+    <footer>
+      <span><span data-i18n="onPage"></span> <kbd>I</kbd> <kbd>R</kbd> <kbd>G</kbd> <kbd>B</kbd> <kbd>Esc</kbd></span>
+      <a href="chrome://extensions/shortcuts" id="shortcuts" data-i18n="shortcuts"></a>
+    </footer>
+
+    <p class="made-by"><span data-i18n="madeBy"></span> <a href="https://burgmedia.eu/?utm_source=burg-inspect&amp;utm_medium=extension&amp;utm_campaign=popup" target="_blank" rel="noopener">Burg Media</a></p>
+
+    <div id="toast" class="toast" hidden></div>
+
+    <script src="../lib/i18n.js"></script>
+    <script src="../lib/highlight.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

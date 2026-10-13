@@ -1,0 +1,377 @@
+{
+  "lang": {
+    "message": "nl"
+  },
+  "extName": {
+    "message": "Burg Inspect"
+  },
+  "extDescription": {
+    "message": "Fonts, maten, afstanden en CSS van elk element zien door eroverheen te bewegen. Liniaal, raster en stijlinventaris. Alles lokaal."
+  },
+  "cmdInspect": {
+    "message": "Inspecteren aan/uit"
+  },
+  "errBlocked": {
+    "message": "Op deze pagina mag Burg Inspect niet werken (bijv. chrome:// of de Web Store)."
+  },
+  "popupSubtitle": {
+    "message": "Fonts · maten · afstanden"
+  },
+  "actionInspect": {
+    "message": "Inspecteren"
+  },
+  "actionRuler": {
+    "message": "Liniaal"
+  },
+  "actionRulerSub": {
+    "message": "Meten met uitlijnen"
+  },
+  "actionGrid": {
+    "message": "Raster"
+  },
+  "actionGridSub": {
+    "message": "Kolommen & baseline"
+  },
+  "actionFonts": {
+    "message": "Fonts"
+  },
+  "actionFontsSub": {
+    "message": "Van deze pagina"
+  },
+  "actionInventory": {
+    "message": "Stijlinventaris"
+  },
+  "actionInventorySub": {
+    "message": "Rapport"
+  },
+  "fontsHint": {
+    "message": "Klik op een font: aanwijzen op de pagina."
+  },
+  "gridSettings": {
+    "message": "Raster instellen"
+  },
+  "gColumns": {
+    "message": "Kolommen"
+  },
+  "gGutter": {
+    "message": "Gutter"
+  },
+  "gMaxWidth": {
+    "message": "Max. breedte"
+  },
+  "gMaxWidthTitle": {
+    "message": "0 = volle breedte"
+  },
+  "gMargin": {
+    "message": "Marge"
+  },
+  "gMarginTitle": {
+    "message": "Ruimte links en rechts"
+  },
+  "gBaseline": {
+    "message": "Baseline"
+  },
+  "gColumnsOn": {
+    "message": "Kolommen tonen"
+  },
+  "gBaselineOn": {
+    "message": "Baseline tonen"
+  },
+  "presetMobile": {
+    "message": "Mobiel 4"
+  },
+  "onPage": {
+    "message": "In beeld:"
+  },
+  "shortcuts": {
+    "message": "Sneltoetsen"
+  },
+  "madeBy": {
+    "message": "Gemaakt door"
+  },
+  "noShortcut": {
+    "message": "Geen sneltoets"
+  },
+  "errCant": {
+    "message": "Deze pagina kan niet bekeken worden (bijv. chrome:// of de Web Store)."
+  },
+  "fontsMeta1": {
+    "message": "{0} font · {1} tekstelementen"
+  },
+  "fontsMetaN": {
+    "message": "{0} fonts · {1} tekstelementen"
+  },
+  "noText": {
+    "message": "Geen tekst gevonden op deze pagina."
+  },
+  "fontLoading": {
+    "message": "{0} · laadt"
+  },
+  "highlighted1": {
+    "message": "{0} element aangewezen"
+  },
+  "highlightedN": {
+    "message": "{0} elementen aangewezen"
+  },
+  "nothingVisible": {
+    "message": "Niets zichtbaar om aan te wijzen"
+  },
+  "pageChanged": {
+    "message": "De pagina is veranderd; analyseer opnieuw"
+  },
+  "missingFont": {
+    "message": "{0} laadt niet → valt terug op {1}"
+  },
+  "fontFiles1": {
+    "message": "{0} fontbestand · {1}"
+  },
+  "fontFilesN": {
+    "message": "{0} fontbestanden · {1}"
+  },
+  "gridUpdated": {
+    "message": "Raster aangepast"
+  },
+  "srcLocalFace": {
+    "message": "Lokaal (@font-face)"
+  },
+  "srcOwnFace": {
+    "message": "Eigen @font-face"
+  },
+  "srcEmbedded": {
+    "message": "Ingebed (data-URI)"
+  },
+  "srcSystem": {
+    "message": "Systeemfont"
+  },
+  "srcInstalled": {
+    "message": "Lokaal geïnstalleerd"
+  },
+  "srcAdobeLikely": {
+    "message": "Adobe Fonts (waarschijnlijk)"
+  },
+  "srcUnknown": {
+    "message": "Webfont (bron niet leesbaar)"
+  },
+  "srcOwnServer": {
+    "message": "Eigen server"
+  },
+  "defaultFont": {
+    "message": "standaardfont"
+  },
+  "barColumnsTitle": {
+    "message": "Kolomraster (G)"
+  },
+  "barBaselineTitle": {
+    "message": "Baseline-raster (B)"
+  },
+  "barInspectTitle": {
+    "message": "Inspecteren (I)"
+  },
+  "barRulerTitle": {
+    "message": "Liniaal (R)"
+  },
+  "barMoveTitle": {
+    "message": "Werkbalk boven/onder"
+  },
+  "barStopTitle": {
+    "message": "Stoppen (Esc)"
+  },
+  "tipInspect": {
+    "message": "Klik: vastzetten · daarna over een ander element: afstanden · ↑↓←→ ouder/kind/buren · C: CSS · Esc"
+  },
+  "tipRuler": {
+    "message": "Sleep om te meten · lijnt uit op randen (Alt: vrij) · Esc: wissen"
+  },
+  "tipIdle": {
+    "message": "De pagina werkt gewoon · I: inspecteren · R: liniaal · Esc: stoppen"
+  },
+  "copied": {
+    "message": "{0} gekopieerd"
+  },
+  "copyFailed": {
+    "message": "Kopiëren mislukt"
+  },
+  "transparent": {
+    "message": "transparant"
+  },
+  "kindWeb": {
+    "message": "webfont"
+  },
+  "kindLocal": {
+    "message": "lokaal"
+  },
+  "kindSystem": {
+    "message": "systeem"
+  },
+  "loading": {
+    "message": "laadt…"
+  },
+  "secText": {
+    "message": "Tekst"
+  },
+  "rowUnavailable": {
+    "message": "Niet beschikbaar"
+  },
+  "rowStack": {
+    "message": "Stapel"
+  },
+  "rowSize": {
+    "message": "Grootte"
+  },
+  "rowWeight": {
+    "message": "Gewicht"
+  },
+  "rowLetterSpacing": {
+    "message": "Spatiëring"
+  },
+  "rowColor": {
+    "message": "Kleur"
+  },
+  "rowBackground": {
+    "message": "Achtergrond"
+  },
+  "parentSuffix": {
+    "message": "(ouder)"
+  },
+  "contrastFail": {
+    "message": "onvoldoende"
+  },
+  "rowBorder": {
+    "message": "Rand"
+  },
+  "rowShadow": {
+    "message": "Schaduw"
+  },
+  "gridColumns": {
+    "message": "{0} kolommen"
+  },
+  "btnCopyCss": {
+    "message": "CSS kopiëren"
+  },
+  "btnParent": {
+    "message": "↑ Ouder"
+  },
+  "cardHint": {
+    "message": "Beweeg over een ander element voor de afstanden. Sleep de kop om het kaartje te verplaatsen."
+  },
+  "reportDocTitle": {
+    "message": "Stijlinventaris · Burg Inspect"
+  },
+  "reportTitle": {
+    "message": "Stijlinventaris · {0} · Burg Inspect"
+  },
+  "analyzeAgain": {
+    "message": "Opnieuw analyseren"
+  },
+  "copyJson": {
+    "message": "Kopieer JSON"
+  },
+  "copyTokens": {
+    "message": "Kopieer als CSS-variabelen"
+  },
+  "emptyBefore": {
+    "message": "Geen inventaris gevonden. Open de popup van Burg Inspect op een pagina en kies"
+  },
+  "emptyAfter": {
+    "message": "."
+  },
+  "secTextStyles": {
+    "message": "Tekststijlen"
+  },
+  "textHint": {
+    "message": "Van groot naar klein. Klik op een regel om de elementen op de pagina aan te wijzen. Het voorbeeld gebruikt het font alleen als het ook op deze computer staat."
+  },
+  "thSample": {
+    "message": "Voorbeeld"
+  },
+  "thSizeLine": {
+    "message": "Grootte / regel"
+  },
+  "thCount": {
+    "message": "Aantal"
+  },
+  "secSizes": {
+    "message": "Lettergroottes"
+  },
+  "secColors": {
+    "message": "Tekstkleuren"
+  },
+  "secBgs": {
+    "message": "Achtergronden"
+  },
+  "secSpacing": {
+    "message": "Afstanden"
+  },
+  "secShadows": {
+    "message": "Schaduwen"
+  },
+  "footerLocal": {
+    "message": "alles lokaal berekend"
+  },
+  "highlightedTab1": {
+    "message": "{0} element aangewezen in de tab"
+  },
+  "highlightedTabN": {
+    "message": "{0} elementen aangewezen in de tab"
+  },
+  "unreachable": {
+    "message": "Kan de pagina niet meer bereiken; open de popup opnieuw op die pagina"
+  },
+  "swatchTitle": {
+    "message": "Klik: kopiëren en aanwijzen"
+  },
+  "statText": {
+    "message": "tekststijlen"
+  },
+  "statSizes": {
+    "message": "lettergroottes"
+  },
+  "statColors": {
+    "message": "tekstkleuren"
+  },
+  "statBgs": {
+    "message": "achtergronden"
+  },
+  "statSpacing": {
+    "message": "afstanden"
+  },
+  "statRadii": {
+    "message": "radii"
+  },
+  "statShadows": {
+    "message": "schaduwen"
+  },
+  "note": {
+    "message": "{0} zichtbare elementen bekeken · {1}. Een gele streep betekent: veel varianten, mogelijk te stroomlijnen."
+  },
+  "countOf": {
+    "message": "{0} van {1}"
+  },
+  "gridFit": {
+    "message": "{0} van {1} waarden passen op een 4px-raster; de rest heeft een stippelrand. m = margin, p = padding, g = gap."
+  },
+  "noSpacing": {
+    "message": "Geen afstanden gevonden."
+  },
+  "noRadii": {
+    "message": "Geen afgeronde hoeken."
+  },
+  "noShadows": {
+    "message": "Geen schaduwen."
+  },
+  "tokensHeader": {
+    "message": "Stijlinventaris van {0} — Burg Inspect"
+  },
+  "tokSizes": {
+    "message": "Lettergroottes (klein → groot)"
+  },
+  "tokColors": {
+    "message": "Tekstkleuren (meest gebruikt eerst)"
+  },
+  "cssVariables": {
+    "message": "CSS-variabelen"
+  },
+  "reanalyzed": {
+    "message": "Opnieuw geanalyseerd"
+  }
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-i18n="reportDocTitle">Burg Inspect</title>
+    <link rel="icon" href="../images/icon_32.png" />
+    <link rel="stylesheet" href="report.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="brand">
+        <img src="../images/icon_32.png" alt="" width="28" height="28" />
+        <div>
+          <strong data-i18n="actionInventory"></strong>
+          <span class="page" id="page">—</span>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="btn" id="again" data-i18n="analyzeAgain"></button>
+        <button class="btn" id="json" data-i18n="copyJson"></button>
+        <button class="btn primary" id="tokens" data-i18n="copyTokens"></button>
+      </div>
+    </header>
+
+    <main id="main">
+      <p id="empty" class="empty" hidden>
+        <span data-i18n="emptyBefore"></span> <b data-i18n="actionInventory"></b><span data-i18n="emptyAfter"></span>
+      </p>
+
+      <section class="stats" id="stats"></section>
+      <p class="note" id="note"></p>
+
+      <section class="block" id="sec-text">
+        <h2><span data-i18n="secTextStyles"></span> <span class="count" id="c-text"></span></h2>
+        <p class="hint" data-i18n="textHint"></p>
+        <div class="table-wrap">
+          <table class="styles">
+            <thead><tr><th data-i18n="thSample"></th><th>Font</th><th data-i18n="thSizeLine"></th><th data-i18n="rowWeight"></th><th>Tags</th><th class="num" data-i18n="thCount"></th></tr></thead>
+            <tbody id="text"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="block" id="sec-sizes">
+        <h2><span data-i18n="secSizes"></span> <span class="count" id="c-sizes"></span></h2>
+        <div class="chips" id="sizes"></div>
+      </section>
+
+      <div class="two">
+        <section class="block" id="sec-colors">
+          <h2><span data-i18n="secColors"></span> <span class="count" id="c-colors"></span></h2>
+          <div class="swatches" id="colors"></div>
+        </section>
+        <section class="block" id="sec-bgs">
+          <h2><span data-i18n="secBgs"></span> <span class="count" id="c-bgs"></span></h2>
+          <div class="swatches" id="bgs"></div>
+        </section>
+      </div>
+
+      <section class="block" id="sec-spacing">
+        <h2><span data-i18n="secSpacing"></span> <span class="count" id="c-spacing"></span></h2>
+        <p class="hint" id="grid-fit"></p>
+        <div class="chips" id="spacing"></div>
+      </section>
+
+      <div class="two">
+        <section class="block" id="sec-radii">
+          <h2>Border-radius <span class="count" id="c-radii"></span></h2>
+          <div class="chips" id="radii"></div>
+        </section>
+        <section class="block" id="sec-shadows">
+          <h2><span data-i18n="secShadows"></span> <span class="count" id="c-shadows"></span></h2>
+          <div class="shadows" id="shadows"></div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      Burg Inspect · <span data-i18n="footerLocal"></span> · <a href="https://burgmedia.eu" target="_blank" rel="noopener">burgmedia.eu</a>
+    </footer>
+
+    <div id="toast" class="toast" hidden></div>
+
+    <script src="../lib/i18n.js"></script>
+    <script src="../lib/highlight.js"></script>
+    <script src="report.js"></script>
+  </body>
+</html>
